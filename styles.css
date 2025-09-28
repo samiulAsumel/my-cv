@@ -7,12 +7,13 @@
 body {
     font-family: Arial, sans-serif;
     font-size: 11pt;
-    line-height: 1.4;
+    line-height: 1.5;
     color: #000000;
     max-width: 8.5in;
     margin: 0 auto;
     padding: 0.75in;
     background: white;
+    text-align: justify;
 }
 
 .header {
@@ -34,7 +35,7 @@ body {
 }
 
 .section {
-    margin-bottom: 16pt;
+    margin-bottom: 18pt;
 }
 
 .section-title {
@@ -47,7 +48,7 @@ body {
 }
 
 .job-entry {
-    margin-bottom: 12pt;
+    margin-bottom: 15pt;
 }
 
 .job-title {
@@ -70,11 +71,12 @@ body {
 }
 
 .job-description li {
-    margin-bottom: 3pt;
+    margin-bottom: 5pt;
+    text-align: justify;
 }
 
 .skills-section {
-    margin-bottom: 4pt;
+    margin-bottom: 6pt;
 }
 
 .skills-category {
@@ -84,6 +86,7 @@ body {
 
 .skills-list {
     display: inline;
+    text-align: justify;
 }
 
 .education-entry {
@@ -97,6 +100,3 @@ body {
 .school-date {
     font-size: 10pt;
 }
-
-/* ATS-friendly: No tables, columns, or complex layouts */
-/* All content in single column for maximum ATS compatibility */
